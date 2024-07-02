@@ -1,0 +1,12 @@
+.body {
+    width: 100% ;
+    height: auto;
+    min-height: 89.5vh;
+    background-color: #e8e8e8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+    position: relative;
+}

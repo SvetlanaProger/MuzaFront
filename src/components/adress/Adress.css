@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.main__adress {
+    display: flex;
+    flex-direction: column;
+    height: 95%;
+    margin-top: 20px;
+}
+
+.adresses {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-left: 20%;
+}
+
+.cart_img {
+    margin-left: 20%;
+    border-radius: 10px;
+    object-fit: cover;
+    height: 450px;
+    width: 60%;
+
+}
+
+.adress__inline {
+    width: 50%;
+    display: flex;
+    font-family: "Days Sans Black", sans-serif;
+    color: #505050;
+    font-weight: 300;
+    font-size: 1.2em;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pointers__adress {
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+}
+
+#heading__adress {
+    font-family: "Days Sans Black", sans-serif;
+    font-weight: 500;
+    font-size: 3.8vh;
+    margin-left: 44%;
+    margin-top: 0;
+    margin-bottom: 20px;
+}

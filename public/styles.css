@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Days Sans Black'; /* Замените на имя вашего шрифта */
+    src: url('./fonts/Days Sans Black.otf') format('truetype'); /* Замените на путь к вашему шрифту */
+    font-weight: normal;
+    font-style: normal;
+}

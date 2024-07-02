@@ -1,0 +1,16 @@
+.review_button {
+    border: 2px solid #b204b9;
+    border-radius: 10px;
+    font-family: "Days Sans Black", sans-serif;
+    font-size: 2.5vh;
+    padding: 10px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: #ee00ff;
+}
+
+.review_button:hover {
+    color: #f0f0f0;
+    background-color: #5e0064;
+    border-color: #5e0064;
+}

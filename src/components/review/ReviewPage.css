@@ -1,0 +1,76 @@
+#review__header {
+    margin: 20px 0;
+    display: flex;
+    width: 100%;
+    height: 10%;
+    justify-content: center;
+    font-size: 3.8vh;
+    font-family: "Days Sans Black", sans-serif;
+}
+
+#form__body {
+    width: 100%;
+    height: 100%;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    gap: 25px;
+    margin-bottom: 10px;
+}
+
+.input__header {
+    font-size: 2.7vh;
+    font-family: "Days Sans Black", sans-serif;
+    margin-bottom: 7.5px;
+}
+
+.input__form {
+    font-size: 2.5vh;
+    border: 2px solid #b204b9;
+    border-radius: 10px;
+    width: 90%;
+}
+
+.name__form {
+    height: 50px;
+}
+
+.name__form:hover {
+    border-color: #f500ff;
+}
+
+.name__form:focus {
+    border-color: #f500ff;
+    box-shadow: 0 0.2px 2px #820088;
+    outline: none;
+}
+
+.name__form::placeholder {
+    color: #595959;
+    transition: color 0.8s ease;
+}
+
+.name__form:hover::placeholder {
+    color: gray;
+}
+
+.review__form {
+    min-height: 200px;
+     resize: none;
+}
+
+.review__form:hover {
+    border-color: #f500ff;
+}
+
+.review__form:focus {
+    border-color: #f500ff;
+    box-shadow: 0 0.2px 2px #820088;
+    outline: none;
+}
+
+#review_button {
+    width: 300px;
+    margin-left: 67%;
+}

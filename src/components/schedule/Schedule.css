@@ -1,0 +1,22 @@
+.main__schedule {
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img_schedule {
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 98.4%;
+    height: 70vh;
+    max-height: 100%;
+}
+
+#schedule_heading {
+    font-family: "Days Sans Black", sans-serif;
+    font-size: 3.8vh;
+    margin-bottom: 20px;
+}

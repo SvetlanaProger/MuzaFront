@@ -1,0 +1,46 @@
+.main__home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+#main_img {
+    border-radius: 10px;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#text_company {
+    color: #505050;
+}
+
+.company_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#button_enroll {
+    border: 2px solid #b204b9;
+    border-radius: 10px;
+    font-family: "Days Sans Black", sans-serif;
+    font-size: 2.5vh;
+    padding: 10px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: #ee00ff;
+}
+
+#button_enroll:hover {
+    color: #f0f0f0;
+    background-color: #5e0064;
+    border-color: #5e0064;
+}
+
+.homepage_buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}

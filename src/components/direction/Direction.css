@@ -1,0 +1,38 @@
+.main__direction {
+    padding-bottom: 8px;
+}
+
+.header__direction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 10%;
+    font-size: 3.8vh;
+    font-family: "Days Sans Black", sans-serif;
+}
+
+.column__diretion {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 85%;
+    padding-left: 2.5%;
+    gap: 15px;
+    font-size: 2.5vh;
+    font-family: "Days Sans Black", sans-serif;
+}
+
+.img {
+    width: 95%;
+    height: 13em;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px;
+}
+
+.column__diretion a:focus {
+    outline: none;
+}
